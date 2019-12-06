@@ -23,7 +23,12 @@
 !/storage/.keep
 
 /public/assets
+
+# Ignore Byebug command history file.
 .byebug_history
+
+# Ignore Spring files.
+/spring/*.pid
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
